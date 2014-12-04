@@ -1,9 +1,9 @@
 {
-  "name": "gulp-ng-di-lint",
+  "name": "gulp-ng-dependency-lint",
   "version": "0.1.0",
   "description": "AngularJS Dependency Injection linter",
   "license": "MIT",
-  "repository": "filso/gulp-ng-di-lint",
+  "repository": "filso/gulp-ng-dependency-lint",
   "author": {
     "name": "Filip Sobczak",
     "email": "filsob@gmail.com",

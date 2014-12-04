@@ -1,9 +1,9 @@
 'use strict';
 var gutil = require('gulp-util');
 var through = require('through2');
-var diLint = require('../ng-di-lint/main.js');
+var diLint = require('../ng-dependency-lint/main.js');
 
-var PLUGIN_NAME = 'gulp-ng-di-lint';
+var PLUGIN_NAME = 'gulp-ng-dependency-lint';
 
 module.exports = function (options) {
 	return through.obj(function (file, enc, cb) {

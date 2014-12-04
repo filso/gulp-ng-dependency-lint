@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-$ npm install --save-dev gulp-ng-di-lint
+$ npm install --save-dev gulp-ng-dependency-lint
 ```
 
 
@@ -16,17 +16,17 @@ $ npm install --save-dev gulp-ng-di-lint
 
 ```js
 var gulp = require('gulp');
-var diLint = require('gulp-ng-di-lint');
+var diLint = require('gulp-ng-dependency-lint');
 
 // to automatically remove 
-gulp.task('ng-di-lint', function () {
+gulp.task('ng-dependency-lint', function () {
 	return gulp.src('src/**/*.js')
 		.pipe(diLint({remove: true}))
 		.pipe(gulp.dest('dist'));
 });
 
 // this will only print unused dependency list
-gulp.task('ng-di-lint', function () {
+gulp.task('ng-dependency-lint', function () {
   return gulp.src('src/**/*.js')
     .pipe(diLint());
 });
