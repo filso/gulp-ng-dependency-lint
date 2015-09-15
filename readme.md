@@ -1,8 +1,8 @@
-# [gulp](http://gulpjs.com)-ngmin [![Build Status](https://travis-ci.org/sindresorhus/gulp-ngmin.svg?branch=master)](https://travis-ci.org/sindresorhus/gulp-ngmin)
+# [gulp](http://gulpjs.com)-ng-dependency-lint
 
 > AngularJS Dependency Injection linter
 
-*Issues with the output should be reported on the ngmin [issue tracker](https://github.com/btford/ngmin/issues).*
+*Issues with the output should be reported on the ng-dependency-lint [issue tracker](https://github.com/filso/ng-dependency-lint/issues).*
 
 
 ## Install
