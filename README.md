@@ -16,19 +16,19 @@ $ npm install --save-dev gulp-ng-dependency-lint
 
 ```js
 var gulp = require('gulp');
-var diLint = require('gulp-ng-dependency-lint');
+var dependencyLint = require('gulp-ng-dependency-lint');
 
 // to automatically remove 
 gulp.task('ng-dependency-lint', function () {
 	return gulp.src('src/**/*.js')
-		.pipe(diLint({remove: true}))
+		.pipe(dependencyLint({removeDependency: true}))
 		.pipe(gulp.dest('dist'));
 });
 
 // this will only print unused dependency list
 gulp.task('ng-dependency-lint', function () {
   return gulp.src('src/**/*.js')
-    .pipe(diLint());
+    .pipe(dependencyLint());
 });
 ```
 
